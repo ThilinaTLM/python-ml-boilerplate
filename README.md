@@ -55,14 +55,11 @@ After downloading the wheel file (.whl), Tensorflow package can be installed (Of
 pip install <path to the .whl file>
 ```
 
+> Keras Comes with builtin to Tensorflow no need install or configuration
+
 ### Install Requirements : Keras
 ```bash
 pip install keras
-```
-
-### Open JupyterLab inside the VE
-```bash
-python -m jupyterlab
 ```
 
 ### Setup Keras Configuration
@@ -70,7 +67,6 @@ First run following code in python shell
 ```python
 import keras
 ```
-
 This will generate the keras configuration file `~/.keras/keras.json`. Its need to be looking like this,
 ```json
 {
@@ -82,6 +78,10 @@ This will generate the keras configuration file `~/.keras/keras.json`. Its need 
 ```
 to working with Keras + Tensorflow.
 
+### Open JupyterLab inside the VE
+```bash
+python -m jupyterlab
+```
 
 ### Exit from Virtual Environment
 ```bash
